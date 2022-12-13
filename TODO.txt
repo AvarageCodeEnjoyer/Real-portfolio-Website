@@ -11,11 +11,11 @@ portfolio page{
 calculator
 quiz app
   conways game
-  animation
+animation
 photo gallery
   flexbox webpage
   form validation
-  jQuery webpage
+jQuery webpage
 }
 
 make .inner-portfolio-container look right
