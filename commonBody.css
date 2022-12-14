@@ -33,7 +33,7 @@ footer{
 }
 
 
-/* ----- Nav Bar ------ */
+/* * --- Nav Bar --- * */
 
 nav{
   display: flex;
@@ -67,12 +67,6 @@ nav{
   transition: var(--nav-time);
 }
 
-#lName{
-  visibility: hidden;
-  transition: 0.1s;
-  
-}
-
 .space{
-  flex-grow: 3;
+  flex: 3;
 }
