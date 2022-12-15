@@ -12,7 +12,6 @@ calculator
 quiz app
   conways game
 animation
-photo gallery
   flexbox webpage
   form validation
 jQuery webpage

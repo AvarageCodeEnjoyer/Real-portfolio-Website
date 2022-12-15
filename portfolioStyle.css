@@ -9,22 +9,11 @@
 
 body > div{
   font-family: 'Work Sans', sans-serif;
-
 }
 
 .picture{
   width: 300px;
   height: 500px;
-}
-
-.portfolio-container{
-  width: 100vw;
-  height: 5500px;
-  flex-direction: column;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-
 }
 
 .portfolio-text{
@@ -38,6 +27,20 @@ body > div{
   align-content: center;
 }
 
+/* * --- Main Container --- * */
+
+.portfolio-container{
+  width: 100vw;
+  height: 5500px;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+}
+
+/* * --- Blue Strip In Background --- * */
+
 #background{
   position: absolute;
   align-items: center;
@@ -47,7 +50,7 @@ body > div{
   background-image: linear-gradient(var(--background), var(--bright-blue-accent));
 }
 
-/* ------ Teal Project Boxes ------ */
+/* * --- Teal Project Boxes --- * */
 
 .inner-portfolio-container{
   width: 300px;
@@ -65,7 +68,7 @@ body > div{
 
 .flex-div{
   width: 70%;
-  height: 400px;
+  height: 390px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -76,9 +79,17 @@ body > div{
 
 .flex-div > div{
   width: 40%;
-  align-self: center;
-  font-size: 25px;
+  /* align-self: center; */
+  font-size: 27px;
   height: auto;
+}
+
+.flex-div > img{
+  object-fit: cover;
+}
+
+.flex-div h2{
+  margin-top: 30px;
 }
 
 .right:hover{
@@ -98,4 +109,4 @@ body > div{
 .left > .inner-portfolio-container{
   margin-right: -50px;
 }
-/* ------ ------ */
+/* * --- --- * */
