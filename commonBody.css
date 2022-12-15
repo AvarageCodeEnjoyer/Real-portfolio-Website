@@ -8,13 +8,9 @@
 }
 
 body{
-  /* height: 100vh; */
   margin: 0px;
   background-color: var(--background);
-  /* background-image: linear-gradient(to bottom right, rgb(204, 255, 227), rgb(155, 200, 249)), radial-gradient(rgb(153, 215, 213),rgb(97, 144, 167)); */
-  /* background-repeat: no-repeat;
-  background-size: cover; */
-  
+  overflow-x: hidden;  
 }
 
 img{
