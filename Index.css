@@ -36,34 +36,6 @@
 
 
 
-#background{
-  background-color: var(--light-accent);
-  width: 100%;
-  height: 500px;
-  display: flex;
-  /* flex-direction: row; */
-  justify-content: space-around;
-}
-
-#text-background{
-  /* padding: 80px 60px 90px 50px; */
-  padding-left: 40px;
-  width: 550px;
-  /* flex: 1; */
-  font-size: 35px;
-  font-family: 'Work Sans', sans-serif;
-}
-
-#picture{
-  width: 30%;
-  margin-right: 7%;
-  margin-top: 50px;
-  height: 520px;
-  flex: 0.44;
-  border: 10px solid var(--bright-accent);
-  z-index: 2;
-}
-
 
 
 

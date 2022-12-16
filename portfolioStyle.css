@@ -11,11 +11,6 @@ body > div{
   font-family: 'Work Sans', sans-serif;
 }
 
-.picture{
-  width: 300px;
-  height: 500px;
-}
-
 .portfolio-text{
   font-size: 30px;
   width: 75%;
@@ -27,6 +22,16 @@ body > div{
   align-content: center;
 }
 
+.text-background > p{
+  font-size: 40px;
+}
+
+#GitHub{
+  position: absolute;
+  width: 300px;
+  /* margin-right: -200px; */
+}
+
 /* * --- Main Container --- * */
 
 .portfolio-container{
@@ -36,12 +41,11 @@ body > div{
   display: flex;
   align-items: center;
   justify-content: space-around;
-
 }
 
 /* * --- Blue Strip In Background --- * */
 
-#background{
+#backgroundStrip{
   position: absolute;
   align-items: center;
   height: 5200px;
