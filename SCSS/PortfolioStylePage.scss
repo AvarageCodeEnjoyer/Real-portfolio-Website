@@ -1,0 +1,127 @@
+$font-family_1: 'Work Sans', sans-serif;
+/* * --- Blue Strip In Background --- * */
+/* * --- Teal Project Boxes --- * */
+/* * --- --- * */
+$bright-blue-accent: #5598d7;
+$teal-blue: #4d7795;
+$background: #E8ECEB;
+$light-accent: #8CBDB9;
+$bright-accent: #E09E50;
+$nav-time: 0.25s;
+
+@mixin Hover{
+  &:hover {
+		border: 10px solid $background;
+		transition: $nav-time;
+	}
+}
+
+body {
+	div {
+		font-family: $font-family_1;
+	}
+}
+
+.portfolio-text {
+	font-size: 30px;
+	width: 75%;
+	height: 300px;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	align-content: center;
+}
+
+.text-background {
+	p {
+		font-size: 40px;
+	}
+}
+
+.GitHub-container{
+  width: 300px;
+	height: 300px;
+  border-radius: 50%;
+	border: 10px solid $bright-accent;
+	transition: $nav-time;
+	margin: 3%;
+  >img{
+    width: 301px;
+    border-radius: 50%;
+  }
+  
+  @include Hover
+}
+
+/* * --- Main Container --- * */
+
+.portfolio-container {
+	width: 100vw;
+	height: 5500px;
+	flex-direction: column;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+#backgroundStrip {
+	position: absolute;
+	align-items: center;
+	height: 5200px;
+	z-index: -1;
+	width: 200px;
+	background-image: linear-gradient($light-accent, $bright-blue-accent);
+}
+
+.inner-portfolio-container {
+	width: 300px;
+	height: 300px;
+	border: 10px solid $bright-accent;
+	transition: $nav-time;
+	margin: 3%;
+	border-radius: 5px;
+	@include Hover
+}
+
+.flex-div {
+	width: 70%;
+	height: 390px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	background-color: $light-accent;
+	transition: 0.5s;
+	border-radius: 30px;
+	>div {
+		width: 40%;
+		font-size: 27px;
+		height: auto;
+	}
+	>img {
+		object-fit: cover;
+	}
+	h2 {
+		margin-top: 30px;
+	}
+}
+
+.right {
+	&:hover {
+		margin-right: -7%;
+		box-shadow: -13px 13px $teal-blue,-23px 23px $bright-accent;
+	}
+	>.inner-portfolio-container {
+		margin-left: -50px;
+	}
+}
+
+.left {
+	&:hover {
+		margin-left: -7%;
+		box-shadow: 13px 13px $teal-blue,23px 23px $bright-accent;
+	}
+	>.inner-portfolio-container {
+		margin-right: -50px;
+	}
+}
