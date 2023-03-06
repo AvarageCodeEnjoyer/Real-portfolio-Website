@@ -1,170 +1,193 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link href="./SCSS/PortfolioStylePage.css" rel="stylesheet">
-    <link href="./SCSS/commonBodyStyle.css" rel = "StyleSheet">
+    <link href="./SCSS/commonBodyStyle.css" rel="StyleSheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Work+Sans:ital,wght@0,400;0,500;1,400;1,500&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Work+Sans:ital,wght@0,400;0,500;1,400;1,500&display=swap" rel="stylesheet">
     <script src="javascript.js"></script>
-</head>
-<body>
-  <nav>
-    <div class="nav-items nameNav" onmouseover = "fullName()">Niko Drossos</div>
-    <div class="space"></div>
-    <div class="nav-items sideNav"><a href="https://avaragecodeenjoyer.github.io/Real-portfolio-Website/AboutMe.html">About</a></div>
-    <div class="nav-items sideNav"><a href="https://avaragecodeenjoyer.github.io/Real-portfolio-Website/Portfolio.html">Portfolio</a></div>
-    <div class="nav-items sideNav"><a href="https://avaragecodeenjoyer.github.io/Real-portfolio-Websiteindex.html">Home</a></div>
-  </nav>
-  <!-- <div class="portfolio-text"></div> -->
-  <div class="background">
-    <div class="text-background">
-      <h2>My project page</h2> 
-      <br>
-        Here I have links to all my main projects on GitHub 
+  </head>
+  <body>
+    <nav>
+      <div class="nav-items nameNav" onmouseover="fullName()">Niko Drossos</div>
+      <div class="space"></div>
+      <div class="nav-items sideNav">
+        <a href="https://avaragecodeenjoyer.github.io/Real-portfolio-Website/AboutMe.html">About</a>
+      </div>
+      <div class="nav-items sideNav">
+        <a href="https://avaragecodeenjoyer.github.io/Real-portfolio-Website/Portfolio.html">Portfolio</a>
+      </div>
+      <div class="nav-items sideNav">
+        <a href="https://avaragecodeenjoyer.github.io/Real-portfolio-Websiteindex.html">Home</a>
+      </div>
+    </nav>
+    <!-- <div class="portfolio-text"></div> -->
+    <div class="background">
+      <div class="text-background">
+        <h2>My project page</h2>
+        <br>
+        Here I have links to all my main projects on GitHub
+      </div>
+      <div class="GitHub-container">
+        <img src="./Images/GitHub Photo.png" alt="" id="GitHub">
+      </div>
     </div>
-    <div class="GitHub-container">
-      <img src="./Images/GitHub Photo.png" alt="" id="GitHub">
-    </div>
-  </div>
-  <div class="portfolio-container">   
-    <div id="backgroundStrip"></div>
-    <div class="flex-div left">
-      <div>
-        <h2>Flexbox Webpage</h2>
-        <p>This is one of the first HTML projects I have done.
-          <br>
-          <br>
-          This is a Flexbox layout with 9 boxes that have custom heights. 
+    <div class="portfolio-container">
+      <div id="backgroundStrip"></div>
+      <div class="flex-div left">
+        <div>
+          <h2>Flexbox Webpage</h2>
+          <p>This is one of the first HTML projects I have done.
+            <br>
+            <br>
+            This is a Flexbox layout with 9 boxes that have custom heights.
+          </p>
+        </div>
+        <a href="https://avaragecodeenjoyer.github.io/9boxflexwebsite/" class="inner-portfolio-container" target="_blank">
+          <img src="./Images/9 box flexbox Snapshot.png" alt="Flexbox Webpage">
+        </a>
+      </div>
+
+      <div class="flex-div right">
+        <a class="inner-portfolio-container" href="https://avaragecodeenjoyer.github.io/Nikos---Form/" target="_blank">
+          <img src="./Images/Regex Form Snapshot.PNG" alt="Regex Form">
+        </a>
+        <div>
+          <h2>Form Validation</h2>
+          <p>This is my form validation project I made for our Regex class.
+            <br>
+            <br>
+            Anyone that has used Regex before knows how unintuitive it is to use.
+          </p>
+        </div>
+      </div>
+
+      <div class="flex-div left">
+        <div>
+          <h2>Animation</h2>
+          <p>This is the animation I made for our CSS animation project.
+            <br>
+            <br>
+            I don't particularly like CSS animation's using a sprite sheet and I will use it as little as possible in the future.
+          </p>
+        </div>
+        <a class="inner-portfolio-container" href="https://avaragecodeenjoyer.github.io/Animation/" target="_blank">
+          <img src="./Images/Animation Snapshot.png" alt="Animation">
+        </a>
+      </div>
+
+      <div class="flex-div right">
+        <a class="inner-portfolio-container" href="https://avaragecodeenjoyer.github.io/Javascript-Quiz/" target="_blank">
+          <img src="./Images/JS Quiz Snapshot.png" alt="JS Quiz">
+        </a>
+        <div>
+          <h2>JavaScript Quiz</h2>
+          <p>This is my JavaScript Quiz I made for quiz project
+            <br>
+            <br>
+            I used JavaScript to check your answers and give you the result, as well as making the result screen show up.
+          </p>
+        </div>
+      </div>
+
+      <div class="flex-div left">
+        <div>
+          <h2>Calculator</h2>
+          <p>This is my calculator project I made for out calculator project.
+            <br>
+            <br>
+            I tried to make the calculator as useful and pleasant as possible, while also not being too complected</p>
+        </div>
+        <a class="inner-portfolio-container" href="https://avaragecodeenjoyer.github.io/Calculator/" target="_blank">
+          <img src="./Images/calculator app Snapshot.png" alt="Calculator">
+        </a>
+      </div>
+
+      <div class="flex-div right">
+        <a class="inner-portfolio-container" href="https://avaragecodeenjoyer.github.io/Top-Ten-Chess-Players-jQuery-Website/" target="_blank">
+          <img src="./Images/jQuery webpage Snapshot.png" alt="Jquery Webpage">
+        </a>
+        <div>
+          <h2>jQuery Webpage</h2>
+          <p>This is my first project made with jQuery.
+            <br>
+            <br>
+            Our requirements were to use Accordion, Date Picker, ToolTip and jQuery effects to make a photo gallery.
+          </p>
+        </div>
+      </div>
+
+      <div class="flex-div left">
+        <div>
+          <h2>Photo Gallery</h2>
+          <p>This photo gallery was made around 3 months into my schooling before we learned JavaScript.
+            <br>
+            <br>
+            Despite the fact I only had HTML and CSS I persevered and made the webpage responsive.
+          </p>
+        </div>
+        <a class="inner-portfolio-container" href="https://avaragecodeenjoyer.github.io/Wolf-Photo-Album/" target="_blank">
+          <img src="./Images/wolf photo album Snapshot.png" alt="Wolf Photo Album">
+        </a>
+      </div>
+
+      <div class="flex-div right">
+        <a class="inner-portfolio-container" href="https://avaragecodeenjoyer.github.io/Blackjack/" target="_blank">
+          <img src="./Images/BlackJack.png" alt="Blackjack">
+        </a>
+        <div>
+          <h2>BlackJack</h2>
+          <p>This project is the card game Blackjack.
+            <br>
+            <br>
+            This project uses JS DOM manipulation and a deck of cards API by
+            <a href="https://github.com/crobertsbmw">Chase Roberts</a>
+            to make a functioning blackjack game.
+        </div>
+      </div>
+
+      <div class="flex-div left">
+          <a class="inner-portfolio-container" href="https://avaragecodeenjoyer.github.io/Reaction-TIme-Game/" target="_blank">
+            <img src="./Images/Conways Game Snapshot.png" alt="Reaction Time Game">
+          </a>
+          <div>
+            <h2>Reaction Time Game</h2>
+            <p>This project is a simple reaction timing game
+              <br>
+              <br>
+              The goal is simple, just click as soon as you see the button change color. It displays the time it took you and your 10 best previous times
+            </p>
+          </div>
         </p>
       </div>
-      <a href="https://avaragecodeenjoyer.github.io/9boxflexwebsite/" class="inner-portfolio-container" target="_blank">
-        <img src="./Images/9 box flexbox Snapshot.png" alt="Flexbox Webpage">
-      </a>
+
+      <div class="flex-div right">
+        <div>
+          <h2>Resume</h2>
+          <p>This is my resume website I made only about 4 months into West-MEC.
+            <br>
+            <br>
+            I will remake this project in the future with my increased knowledge of HTML, CSS and JS.
+          </p>
+        </div>
+        <a class="inner-portfolio-container" href="https://avaragecodeenjoyer.github.io/1st-Resume/" target="_blank">
+          <img src="./Images/Resume Snapshot.png" alt="Resume">
+        </a>
+      </div>
     </div>
 
-    <div class="flex-div right">
-      <a class="inner-portfolio-container" href="https://avaragecodeenjoyer.github.io/Nikos---Form/" target="_blank">
-        <img src="./Images/Regex Form Snapshot.PNG" alt="Regex Form">
-      </a>
-      <div>
-        <h2>Form Validation</h2>
-        <p>This is my form validation project I made for our Regex class.
+    <footer>
+      <p>Published By Niko Drossos</p>
+      <p>Contact Me:<a href="mailto:droniko777@gmail.com">
           <br>
-          <br>
-          Anyone that has used Regex before knows how unintuitive it is to use.
-        </p>
-      </div>
-    </div>
-
-    <div class="flex-div left">
-      <div>
-        <h2>Animation</h2>
-        <p>This is the animation I made for our CSS animation project.
-          <br>
-          <br>
-          I don't particularly like CSS animation's using a sprite sheet and I will use it as little as possible in the future. 
-        </p>
-      </div>
-      <a class="inner-portfolio-container" href="https://avaragecodeenjoyer.github.io/Animation/" target="_blank">
-        <img src="./Images/Animation Snapshot.png" alt="Animation">
-      </a>
-    </div>
-
-    <div class="flex-div right">
-      <a class="inner-portfolio-container" href="https://avaragecodeenjoyer.github.io/Javascript-Quiz/" target="_blank">
-        <img src="./Images/JS Quiz Snapshot.png" alt="JS Quiz">
-      </a>
-      <div>
-        <h2>JavaScript Quiz</h2>
-        <p>This is my JavaScript Quiz I made for quiz project
-          <br>
-          <br>
-          I used JavaScript to check your answers and give you the result, as well as making the result screen show up.
-        </p>
-      </div>
-    </div>
-
-    <div class="flex-div left">
-      <div>
-        <h2>Calculator</h2>
-        <p>This is my calculator project I made for out calculator project.
-          <br>
-          <br>
-          I tried to make the calculator as useful and pleasant as possible, while also not being too complected</p>
-      </div>
-      <a class="inner-portfolio-container" href="https://avaragecodeenjoyer.github.io/Calculator/" target="_blank">
-        <img src="./Images/calculator app Snapshot.png" alt="Calculator">
-      </a>
-    </div>
-
-    <div class="flex-div right">
-      <a class="inner-portfolio-container" href="https://avaragecodeenjoyer.github.io/Top-Ten-Chess-Players-jQuery-Website/" target="_blank">
-        <img src="./Images/jQuery webpage Snapshot.png" alt="Jquery Webpage">
-      </a>
-      <div>
-        <h2>jQuery Webpage</h2>
-        <p>This is my first project made with jQuery.
-          <br>
-          <br>
-          Our requirements were to use Accordion, Date Picker, ToolTip and jQuery effects to make a photo gallery.
-        </p>
-      </div>
-    </div>
-    
-    <div class="flex-div left">
-      <div>
-        <h2>Photo Gallery</h2>
-        <p>This photo gallery was made around 3 months into my schooling before we learned JavaScript. 
-          <br>
-          <br>
-          Despite the fact I only had HTML and CSS I persevered and made the webpage responsive. 
-        </p>
-      </div>
-      <a class="inner-portfolio-container" href="https://avaragecodeenjoyer.github.io/Wolf-Photo-Album/" target="_blank">
-        <img src="./Images/wolf photo album Snapshot.png" alt="Wolf Photo Album">
-      </a>
-    </div>
-    
-    <div class="flex-div right">
-      <a class="inner-portfolio-container" href="" target="_blank">
-        <img src="./Images/Conways Game Snapshot.png" alt="Conways Game Of Life">
-      </a>
-      <div>
-        <h2>Reaction Time Game</h2>
-        <p>This project is a simple reaction timing game
-          <br>
-          <br>
-          The goal is simple, just click as soon as you see the button change color.
-        </p>
-      </div>
-    </div>
-    
-    <div class="flex-div left">
-      <div>
-        <h2>Resume</h2>
-        <p>This is my resume website I made only about 4 months into West-MEC.
-          <br>
-          <br>
-          I will remake this project in the future with my increased knowledge of HTML, CSS and JS.
-        </p>
-      </div>
-      <a class="inner-portfolio-container" href="https://avaragecodeenjoyer.github.io/1st-Resume/" target="_blank">
-        <img src="./Images/Resume Snapshot.png" alt="Resume">
-      </a>
-    </div>
-  </div>
-
-  <footer>
-    <p>Published By Niko Drossos</p>
-    <p>Contact Me:<a href="mailto:droniko777@gmail.com">
-      <br>
-      <u>Email me</u></a></p>
-  </footer>
-  
-</body>
+          <u>Email me</u>
+        </a>
+      </p>
+    </footer>
+  </body>
 </html>
