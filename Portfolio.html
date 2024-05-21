@@ -10,31 +10,27 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Work+Sans:ital,wght@0,400;0,500;1,400;1,500&display=swap" rel="stylesheet">
-    <script src="javascript.js"></script>
   </head>
   <body>
     <nav>
-      <div class="nav-items nameNav" onmouseover="fullName()">Niko Drossos</div>
+      <div class="nav-items nameNav"><a href="/index.html">Niko Drossos</a></div>
       <div class="space"></div>
-      <div class="nav-items sideNav">
-        <a href="/AboutMe.html">About</a>
-      </div>
-      <div class="nav-items sideNav">
-        <a href="/Portfolio.html">Portfolio</a>
-      </div>
-      <div class="nav-items sideNav">
-        <a href="/index.html">Home</a>
-      </div>
+      <div class="nav-items sideNav"><a href="/index.html">About</a></div>
+      <div class="nav-items sideNav"><a href="/Portfolio.html">Portfolio</a></div>
+      <!-- <div class="nav-items sideNav"><a href="/Contact.html">Contact</a></div> -->
     </nav>
-    <!-- <div class="portfolio-text"></div> -->
+
     <div class="background">
       <div class="text-background">
-        <h2>My project page</h2>
+        <h2>My projects page</h2>
         <br>
-        Here I have links to all my main projects on GitHub
+        Here I have links to a handful my main projects on posted on my GitHub
+        <br>
+        <br>  
+        My main github is <a href="https://github.com/Niko-Drossos" target="_blank">here</a>
       </div>
       <div class="GitHub-container">
-        <a href="https://github.com/AvarageCodeEnjoyer">
+        <a href="https://github.com/AvarageCodeEnjoyer" target="_blank">
           <img src="./Images/GitHub Photo.png" alt="" id="GitHub">
         </a>
       </div>
@@ -130,7 +126,7 @@
           <p>This photo gallery was made around 3 months into my schooling before we learned JavaScript.
             <br>
             <br>
-            Despite the fact I only had HTML and CSS I persevered and made the webpage responsive.
+            Despite the fact I only had HTML and CSS I persevered and made the images clickable.
           </p>
         </div>
         <a class="inner-portfolio-container" href="https://avaragecodeenjoyer.github.io/Wolf-Photo-Album/" target="_blank">
@@ -154,21 +150,23 @@
       </div>
 
       <div class="flex-div left">
-          <a class="inner-portfolio-container" href="https://avaragecodeenjoyer.github.io/Reaction-TIme-Game/" target="_blank">
-            <img src="./Images/Conways Game Snapshot.png" alt="Reaction Time Game">
-          </a>
-          <div>
-            <h2>Reaction Time Game</h2>
-            <p>This project is a simple reaction timing game
-              <br>
-              <br>
-              The goal is simple, just click as soon as you see the button change color. It displays the time it took you and your 10 best previous times
-            </p>
-          </div>
-        </p>
+        <div>
+          <h2>Reaction Time Game</h2>
+          <p>This project is a simple reaction timing game
+            <br>
+            <br>
+            The goal is simple, just click as soon as you see the button change color.
+          </p>
+        </div>
+        <a class="inner-portfolio-container" href="https://avaragecodeenjoyer.github.io/Reaction-TIme-Game/" target="_blank">
+          <img src="./Images/Conways Game Snapshot.png" alt="Reaction Time Game">
+        </a>
       </div>
 
       <div class="flex-div right">
+        <a class="inner-portfolio-container" href="https://avaragecodeenjoyer.github.io/1st-Resume/" target="_blank">
+          <img src="./Images/Resume Snapshot.png" alt="Resume">
+        </a>
         <div>
           <h2>Resume</h2>
           <p>This is my resume website I made only about 4 months into West-MEC.
@@ -177,15 +175,9 @@
             I will remake this project in the future with my increased knowledge of HTML, CSS and JS.
           </p>
         </div>
-        <a class="inner-portfolio-container" href="https://avaragecodeenjoyer.github.io/1st-Resume/" target="_blank">
-          <img src="./Images/Resume Snapshot.png" alt="Resume">
-        </a>
       </div>
       
       <div class="flex-div left">
-        <a class="inner-portfolio-container" href="https://github.com/Beth-Kavod/Story" target="_blank">
-          <img src="./Images/UploadPost.png" alt="Resume">
-        </a>
         <div>
           <h2>Story</h2>
           <p>This is a File Sharing app for a new generation.
@@ -194,9 +186,15 @@
             This is not the final version of the project and it will be updated in the future.
           </p>
         </div>
+        <a class="inner-portfolio-container" href="https://github.com/Beth-Kavod/Story" target="_blank">
+          <img src="./Images/UploadPost.png" alt="Resume">
+        </a>
       </div>
       
       <div class="flex-div right">
+        <a class="inner-portfolio-container" href="https://github.com/Niko-Drossos/Express-Media-Storage" target="_blank">
+          <img src="./Images/ExpressServer.png" alt="Resume">
+        </a>
         <div>
           <h2>Express Server</h2>
           <p>This is the backend server for Story.
@@ -205,9 +203,6 @@
             This uses GridFs to store arbitrary file data in a chunked manner.
           </p>
         </div>
-        <a class="inner-portfolio-container" href="https://github.com/Niko-Drossos/Express-Media-Storage" target="_blank">
-          <img src="./Images/ExpressServer.png" alt="Resume">
-        </a>
       </div>
     </div>
 

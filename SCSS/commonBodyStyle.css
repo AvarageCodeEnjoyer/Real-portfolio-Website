@@ -58,7 +58,6 @@ nav {
 }
 
 .sideNav > a {
-  text-decoration: none;
   color: black;
   transition: 0.25s;
 }
@@ -70,6 +69,10 @@ nav {
   padding: 55px;
   font-size: 60px;
   transition: 0.25s;
+}
+.nav-items > a {
+  text-decoration: none;
+  color: black;
 }
 .nav-items:hover {
   color: #E09E50;

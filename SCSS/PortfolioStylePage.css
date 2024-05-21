@@ -1,10 +1,6 @@
 /* * --- Blue Strip In Background --- * */
 /* * --- Teal Project Boxes --- * */
 /* * --- --- * */
-body div {
-  font-family: "Work Sans", sans-serif;
-}
-
 .portfolio-text {
   font-size: 30px;
   width: 75%;
@@ -37,6 +33,10 @@ body div {
   transition: 0.25s;
 }
 
+#GitHub {
+  border-radius: 100%;
+}
+
 /* * --- Main Container --- * */
 .portfolio-container {
   width: 100vw;
@@ -54,10 +54,6 @@ body div {
   z-index: -1;
   width: 200px;
   background-image: linear-gradient(#8CBDB9, #5598d7);
-}
-
-#GitHub {
-  border-radius: 50%;
 }
 
 .inner-portfolio-container {
@@ -79,6 +75,7 @@ body div {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  font-family: "Work Sans", sans-serif;
   background-color: #8CBDB9;
   transition: 0.5s;
   border-radius: 30px;

@@ -16,12 +16,6 @@ $nav-time: 0.25s;
 	}
 }
 
-body {
-	div {
-		font-family: $font-family_1;
-	}
-}
-
 .portfolio-text {
 	font-size: 30px;
 	width: 75%;
@@ -52,6 +46,10 @@ body {
   }
   
   @include Hover
+}
+
+#GitHub {
+	border-radius: 100%;
 }
 
 /* * --- Main Container --- * */
@@ -90,6 +88,7 @@ body {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
+	font-family: $font-family_1;
 	background-color: $light-accent;
 	transition: 0.5s;
 	border-radius: 30px;

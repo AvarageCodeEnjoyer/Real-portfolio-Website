@@ -39,6 +39,7 @@ $bright-accent: #E09E50;
 }
 
 #picture {
+	position: relative;
 	width: auto;
 	margin-right: 7%;
 	margin-top: 50px;
@@ -66,8 +67,26 @@ li {
 #background {
 	background-color: $light-accent;
 	width: 100%;
-	height: 500px;
+	height: 450px;
 	margin-bottom: 200px;
 	display: flex;
 	justify-content: space-around;
+}
+
+#form-backround {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}	
+
+.contact-form {
+	margin-top: 40px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 40%;	
+	border-radius: 10px;
+	background-color: white;
+	height: 500px;
 }
